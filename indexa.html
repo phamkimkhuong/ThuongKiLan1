@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         #menu-container {
             display: flex;
             justify-content: space-around;
@@ -25,7 +29,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            position: relative;
         }
         
         #right {
@@ -61,7 +64,6 @@
             justify-content: space-around;
             margin-top: 70px;
             width: 95%;
-            position: relative;
         }
         #image1{
             display: flex;
@@ -136,6 +138,69 @@
             color: bisque;
             background-color: burlywood;
         }
+
+        .dola{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .n{
+            width: 32px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #last{
+            margin-top: 100px;
+            color: aliceblue;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+             align-items: center;
+            width: 100%;
+            height: 440px;
+        }
+
+        .suppor{
+            display: flex;
+            justify-content: space-around;
+            width: 490px;
+            height: 340px;
+            margin-left: 80px;
+            margin-top: 102px;
+            
+            /* background-color: antiquewhite; */
+
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* background-color: aquamarine; */
+            height: 234px;
+        }
+        .help{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* background-color: aquamarine; */
+            height: 137px;
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* background-color: aquamarine; */
+            height: 172px;
+        }
+        .promotions{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 230px;
+            /* background-color: aqua; */
+        }
     </style>
 </head>
 
@@ -196,22 +261,38 @@
                     <div class="text">
                         <div class="b">Product title</div>
                         <div>Labore sint ipsum dolore mollit</div>
-                        <div><p>$32</p> <img style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                        <div class="dola">
+                           <p style="font-size: 30px;">$32</p>
+                            <p style="font-size: 20px; color: rgb(137, 131, 131);margin-top: 7px;">$42</p> 
+                            <img style="margin-left: 123px;" src="Button 1 (2).png">
+                       </div> 
                     </div>
                     <div class="text">
                         <div class="b">Product title</div>
                         <div>Labore sint ipsum dolore mollit</div>
-                        <div>$22 <img style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                        <div class="dola">
+                            <p style="font-size: 30px;">$22</p>
+                            <p style="font-size: 20px; color: rgb(137, 131, 131);margin-top:7px;">$28</p>
+                            <img style="margin-left: 123px;" src="Button 1 (2).png">
+                        </div>
                     </div>
                     <div class="text">
                         <div class="b">Product title</div>
                         <div>Labore sint ipsum dolore mollit</div>
-                        <div>$18 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                        <div class="dola">
+                            <p style="font-size: 32px;">$18</p>
+                            <p style="font-size: 20px; color: rgb(137, 131, 131);margin-top: 7px;">$26</p>
+                            <img style="margin-left: 123px;" src="Button 1 (2).png">
+                        </div>
                     </div>
                     <div class="text">
                         <div class="b">Product title</div>
                         <div>Labore sint ipsum dolore mollit</div>
-                        <div>$48 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                        <div class="dola">
+                            <p style="font-size: 32px;">$48</p>
+                            <p style="font-size: 20px; color: rgb(137, 131, 131);margin-top:7px ;">$56</p>
+                            <img style="margin-left: 123px;" src="Button 1 (2).png">
+                            </div>
                     </div>
                 </div>
             <div id="image2">
@@ -227,22 +308,33 @@
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$31 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$31</p>
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png">
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="b">Product title</div>
+                    <div >Labore sint ipsum dolore mollit</div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$40</p> 
+                        <p style="font-size: 20px; color: rgb(137, 131, 131); margin-top:7px;">$48</p>
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png">
+                    </div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$40 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$26</p>
+                         <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$26 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
-                </div>
-                <div class="text">
-                    <div class="b">Product title</div>
-                    <div>Labore sint ipsum dolore mollit</div>
-                    <div>$18 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$18</p> 
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
             </div>
             <div id="image3">
@@ -261,33 +353,82 @@
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div> $52 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola"> 
+                        <p style="font-size: 32px;">$52</p> 
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$47 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$47</p> 
+                        <p style="font-size: 20px; color: rgb(137, 131, 131); margin-top:7px;">$42</p>
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$44 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$44</p> 
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$32 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div class="dola">
+                        <p style="font-size: 32px;">$32</p> 
+                        <p style="font-size: 20px; color: rgb(137, 131, 131); margin-top:7px;">$42</p>
+                        <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
             </div>
         </div>
         <div id="number">
             <div id="num">
-                <div><img src="Button 1 (5).png" alt=""></div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
+               <div><img src="Button 1 (5).png" alt=""></div>
+                <div class="n">1</div>
+                <div class="n" style="border-radius: 100%;background-color: rgb(186, 227, 212);color: aquamarine;">2</div>
+                <div class="n">3</div>
+                <div class="n">4</div>
                 <div><img src="Button 1 (6).png" alt=""></div>
+            </div>
+        </div>
+        <div id="last">
+            <div class="suppor">
+                <div class="about">
+                    <div><p>About</p></div>
+                    <div>Home</div>
+                    <div>Shop</div>
+                    <div>Our story</div>
+                    <div>Blogs</div>
+                    <div>English</div>
+                </div>
+                <div class="help">
+                    <div><p>Help</p></div>
+                    <div>Shipping & Returns</div>
+                    <div>Track Order</div>
+                    <div>FAQs</div>
+                </div>
+                <div class="contact">
+                    <div><p>Contact</p></div>
+                    <div>Phone</div>
+                    <div>(+1) 123 456 7893</div>
+                    <div>Email:</div>
+                    <div>name@email.com</div>
+                </div>
+            </div>
+            <div class="suppor">
+                <div class="promotions">
+                <div><h2>Receive new promotions</h2></div>
+                <div>Duis ea tempor commodo amet reprehende</div>
+                <div>Input your email</div>
+                <div class="media">
+                    <img src="Twitter 1.png">
+                    <img src="Facebook 1.png">
+                    <img src="LinkedIn 1.png">
+                    <img src="YouTube 1.png" >
+                </div>
+                <div>c 2022 Brand, Inc. . Privacy . Terms . Sitemap</div>
+                </div>
             </div>
         </div>
     </div>
