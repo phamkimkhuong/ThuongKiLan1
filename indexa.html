@@ -25,6 +25,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            position: relative;
         }
         
         #right {
@@ -60,6 +61,7 @@
             justify-content: space-around;
             margin-top: 70px;
             width: 95%;
+            position: relative;
         }
         #image1{
             display: flex;
@@ -113,7 +115,27 @@
             font-weight: bold;
             font-size: 28px;
         }
-        
+        .i{
+            position: relative;
+        }
+        .i .caption{
+            position: absolute;
+            margin-left: 180px;
+            border-radius: 20px;
+            padding: 5px;
+            margin-top: 10px;
+            color: bisque;
+            background-color:burlywood;
+        }
+        .new{
+            position: absolute;
+            margin-left: 210px;
+            margin-top: 10px;
+            border-radius: 20px;
+            padding: 5px;
+            color: bisque;
+            background-color: burlywood;
+        }
     </style>
 </head>
 
@@ -139,7 +161,7 @@
             <img src="banner.png" alt="">
         </div>
         <div id="option">
-            <div id="three" style="color: green;size:10%;">
+            <div id="three" style="color: green;">
                 <div class="a" style="background-color: rgb(135, 179, 135);">All Products</div>
                 <div class="a">Face</div>
                 <div class="a">Body</div>
@@ -153,10 +175,22 @@
         </div>
         <div id="images">
             <div id="image1">
-                <div><img src="Image 1 (1).png" ></div>
-                <div><img src="Image 1 (2).png" ></div>
-                <div><img src="Image 1 (3).png" ></div>
-                <div><img src="Image 1 (4).png" ></div>
+                <div class="i">
+                    <div class="caption">Best-seller</div>
+                    <img src="Image 1 (1).png" >
+                </div>
+                <div class="i" >
+                    <div class="caption">Best-seller</div>
+                    <img src="Image 1 (2).png" >
+                </div>
+                <div class="i" >
+                    <div class="caption">Best-seller</div>
+                    <img src="Image 1 (3).png" >
+                </div>
+                <div class="i">
+                    <div class="caption">Best-seller</div>
+                    <img src="Image 1 (4).png" >
+                </div>
             </div>
             <div class="introduce">
                     <div class="text">
@@ -182,7 +216,10 @@
                 </div>
             <div id="image2">
                 <div><img src="Image 1 (5).png" alt=""></div>
-                <div><img src="Image 1 (6).png" alt=""></div>
+                <div class="i">
+                    <div class="new">New</div>
+                    <img src="Image 1 (6).png" alt="">
+                </div>
                 <div><img src="Image 1 (7).png" alt=""></div>
                 <div><img src="Image 1 (8).png" alt=""></div>
             </div>
@@ -190,50 +227,56 @@
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$32 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div>$31 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$22 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div>$40 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                </div>
+                <div class="text">
+                    <div class="b">Product title</div>
+                    <div>Labore sint ipsum dolore mollit</div>
+                    <div>$26 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
                     <div>$18 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
-                <div class="text">
-                    <div class="b">Product title</div>
-                    <div>Labore sint ipsum dolore mollit</div>
-                    <div>$48 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
-                </div>
             </div>
             <div id="image3">
-                <div><img src="Image 1 (9).png" alt=""></div>
+                <div>
+                    <div class="new">New</div>
+                    <img src="Image 1 (9).png" alt="">
+                </div>
                 <div><img src="Image 1 (10).png" alt=""></div>
                 <div><img src="Image 1 (11).png" alt=""></div>
-                <div><img src="Image 1 (12).png" alt=""></div>
+                <div>
+                    <div class="new">New</div>
+                    <img src="Image 1 (12).png" alt="">
+                </div>
             </div>
             <div class="introduce">
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div> $32 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div> $52 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$22 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div>$47 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$18 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div>$44 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
                 <div class="text">
                     <div class="b">Product title</div>
                     <div>Labore sint ipsum dolore mollit</div>
-                    <div>$48 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
+                    <div>$32 <img  style="margin-left: 123px;" src="Button 1 (2).png"></div>
                 </div>
             </div>
         </div>
@@ -248,8 +291,5 @@
             </div>
         </div>
     </div>
-
-
 </body>
-
 </html>
